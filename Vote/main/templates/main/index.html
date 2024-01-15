@@ -1,24 +1,43 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Main</title>
-  </head>
-  <body>
-    <h1>Main Page</h1>
-    <h3>Top 10 votings</h3>
-    <ol>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
-      <li>5</li>
-      <li>6</li>
-      <li>7</li>
-      <li>8</li>
-      <li>9</li>
-      <li>10</li>
-    </ol>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your App</title>
+    <link rel="stylesheet" href="{% static 'main/styles.css' %}">
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">
+            <img src="{% static 'images/logo.png' %}" alt="Your Logo">
+        </div>
+        <div class="login-button">
+            <a href="{% url 'login' %}">Log In</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <h1>Top Votings</h1>
+    <ul>
+        {% for voting in votings %}
+            <li>{{ voting.title }}</li>
+        {% endfor %}
+    </ul>
+</main>
+
+<footer>
+    <div class="copyright">
+        &copy; Alex
+    </div>
+    <div class="footer-links">
+        {% comment %} <a href="{% url 'about' %}">About</a>
+        <a href="{% url 'contact' %}">Contact Us</a> {% endcomment %}
+    </div>
+</footer>
+
+</body>
 </html>
