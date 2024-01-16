@@ -1,43 +1,13 @@
-<!DOCTYPE html>
+{% extends "layout.html" %}
 {% load static %}
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your App</title>
-    <link rel="stylesheet" href="{% static 'main/styles.css' %}">
-</head>
-<body>
-
-<header>
-    <nav>
-        <div class="logo">
-            <img src="{% static 'images/logo.png' %}" alt="Your Logo">
-        </div>
-        <div class="login-button">
-            <a href="{% url 'login' %}">Log In</a>
-        </div>
-    </nav>
-</header>
-
-<main>
-    <h1>Top Votings</h1>
-    <ul>
-        {% for voting in votings %}
-            <li>{{ voting.title }}</li>
-        {% endfor %}
-    </ul>
-</main>
-
-<footer>
-    <div class="copyright">
-        &copy; Alex
-    </div>
-    <div class="footer-links">
-        {% comment %} <a href="{% url 'about' %}">About</a>
-        <a href="{% url 'contact' %}">Contact Us</a> {% endcomment %}
-    </div>
-</footer>
-
-</body>
-</html>
+{% block title %}main{% endblock title %}
+{% block body %}
+<h1>Votings:</h1>
+<ol>
+{% for num in '1234567890' %}
+<li>
+    {{ num }}
+</li>
+{% endfor %}
+</ol>
+{% endblock body %}
