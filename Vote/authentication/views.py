@@ -24,6 +24,7 @@ def register(request):
             email = form.cleaned_data["email"]
             password = form.cleaned_data["password"]
             user = User.objects.create(name=name, email=email, password=password)
+            user.save()
             return render(request, 'main/index.html')
     else:
         form = RegisterForm
