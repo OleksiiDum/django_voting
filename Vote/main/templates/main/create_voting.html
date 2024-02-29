@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% load static %}
+{% block title %}create_voting{% endblock title %}
+{% block body %}
+<h1>Create Voting</h1>
+<form action="create_voting" method="post">
+  {% csrf_token %}
+  <label for="header">Header of Voting</label>
+  <input type="text" name="header" id="header" /><br/>
+  <label for="description">Description of Voting</label>
+  <textarea name="description" id="description" rows="10" cols="30">
+  </textarea><br/>
+  <input type="submit" value="Submit" />
+</form>
+{% endblock body %}

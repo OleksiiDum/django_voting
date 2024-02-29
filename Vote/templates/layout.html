@@ -17,11 +17,27 @@
             </a>
         </div>
         <div class="register-link">
+            <a href="{% url 'vote' %}">Vote</a>
+        </div>
+        {% if request.user.is_authenticated %}
+        <div class="register-link">
+            <a href="{% url 'create_voting' %}">Create</a>
+        </div>
+        {% endif %}
+        {% if user.is_anonymous %}
+        <div class="register-link">
             <a href="{% url 'register' %}">Register</a>
         </div>
+        
         <div class="login-link">
             <a href="{% url 'login' %}">Log In</a>
         </div>
+        {% endif %}
+        {% if request.user.is_authenticated %}
+        <div class="login-link">
+            <a href="{% url 'logout' %}">Log Out</a>
+        </div>
+        {% endif %}
     </nav>
 </header>
 

@@ -4,7 +4,8 @@
 login
 {% endblock title %}
 {% block body %}
-<form action=""{% url 'authenticate_user' %}"" method="post">
+<h1>Login Page</h1>
+<form action="{% url 'authenticate_user' %}" method="post">
     {% csrf_token %}
     {% for field in form %}
 	<p>
