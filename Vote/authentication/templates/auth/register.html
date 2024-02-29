@@ -4,7 +4,8 @@
 register
 {% endblock title %}
 {% block body %}
-<form action="{% url 'create_user' %}" method="post" novalidate>
+<h1>Register Page</h1>
+<form action="{% url 'register' %}" method="post">
     {% csrf_token %}
     {% for field in form %}
 	<p>
@@ -20,4 +21,5 @@ register
 	{% endfor %}
     <input type="submit" value="Submit">
 </form>
+
 {% endblock body %}
