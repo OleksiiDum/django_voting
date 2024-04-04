@@ -1,8 +1,9 @@
 from django.shortcuts import render, redirect
-from django.http import HttpResponseRedirect, Http404
+# from django.http import HttpResponseRedirect, Http404
 from .models import CustomUser
 from .forms import LoginForm, CustomUserForm
 from django.contrib.auth import authenticate, login, logout
+
 
 # Create your views here.
 def login_page(request):
@@ -42,5 +43,4 @@ def authenticate_user(request):
             login(request, user)
             return redirect("index")
         else:
-            print("User not exists")
-            return redirect('login')
+            return redirect('login') #send notification to user whyredirect

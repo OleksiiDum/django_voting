@@ -1,14 +1,23 @@
 {% extends "layout.html" %}
 {% load static %}
-{% block title %}Vote{%endblock title %}
+{% block title %}Vote{% endblock title %}
 {% block body %}
-<h1>Vote</h1>
+<h1>{{ voting.header }}</h1>
+<h3>{{ voting.description }}</h3>
 <div class="choise">
-  <div class="choise-yes">
-    <h1>YES</h1>
-  </div>
-  <div class="choise-no">
-    <h1>NO</h1>
-  </div>
+  {% if voted != True %}
+  <form method="POST" class="choise">
+    {% csrf_token %}
+    <input type="submit" value="yes" name="vote" class="choise choise-yes"/>
+    <input type="submit" value="no" name="vote" class="choise choise-no" />
+    <input type="text " value="{{ voting.id }}" name="id" hidden/>
+    
+  </form>
+  {% else %}
+  <p>
+    You Have Voted!!! 
+  </p>
+  {% endif %}
+  
 </div>
 {% endblock body %}

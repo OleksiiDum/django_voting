@@ -10,4 +10,12 @@
 </li>
 {% endfor %}
 </ol>
+
+<ol>
+    {% for vote in votes %}
+    <li>
+        <a href="/votings/{{ vote.id }}">{{ vote.header }}</a>
+    </li>
+    {% endfor %}
+    </ol>
 {% endblock body %}
