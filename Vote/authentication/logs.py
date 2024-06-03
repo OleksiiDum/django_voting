@@ -1,7 +1,7 @@
 import logging
 
 
-logger = logging.getLogger("main")
+logger = logging.getLogger("authentication")
 logger.setLevel(logging.DEBUG)
 
 sh = logging.StreamHandler()
@@ -12,7 +12,3 @@ fh.setLevel(logging.DEBUG)
 
 logger.addHandler(sh)
 logger.addHandler(fh)
-
-formatter = logging.Formatter("[%(asctime)s][%(levelname)s] %(filename)s : %(message)s")
-sh.setFormatter(formatter)
-fh.setFormatter(formatter)

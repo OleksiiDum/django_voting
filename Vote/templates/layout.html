@@ -24,6 +24,11 @@
             <a href="{% url 'create_voting' %}">Create</a>
         </div>
         {% endif %}
+        {% if request.user.is_authenticated %}
+        <div class="register-link">
+            <a href="{% url 'user_page' %}">User Page</a>
+        </div>
+        {% endif %}
         {% if user.is_anonymous %}
         <div class="register-link">
             <a href="{% url 'register' %}">Register</a>

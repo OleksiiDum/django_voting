@@ -1,0 +1,147 @@
+Opened main page
+Opened voting page
+Opened create_voting page
+Created voting
+Opened main page
+Opened main page
+Opened create_voting page
+Created voting
+Opened main page
+User is logged out
+Opened main page
+Opened register page
+User is registered
+Opened login page
+User is authenticated
+Opened main page
+User is logged out
+Opened main page
+Opened login page
+User is authenticated
+User not exists
+Opened login page
+User is authenticated
+Opened main page
+User is logged out
+Opened main page
+Opened login page
+User is authenticated
+User not exists
+Opened login page
+Opened login page
+User is authenticated
+Opened main page
+Opened main page
+Opened create_voting page
+Opened main page
+Opened main page
+Opened main page
+Opened main page
+Opened main page
+Opened main page
+Opened main page
+Opened create_voting page
+<dict_itemiterator object at 0x00000245BAE11120>
+{"{'header': 'Header', 'description': 'Description'}": ['']}
+{'header': ['Header'], 'description': ['Description']}
+Created voting
+{'header': ['Header'], 'description': ['Description']}
+Created voting
+[2024-04-18 22:32:03,426][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-18 22:32:03,427][INFO] views.py : Created voting
+[2024-04-18 22:34:12,239][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-18 22:34:12,240][INFO] views.py : Created voting
+[2024-04-18 22:37:41,649][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-18 22:37:41,652][INFO] views.py : Created voting
+[2024-04-18 22:38:13,473][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-18 22:38:13,474][INFO] views.py : Created voting
+[2024-04-18 22:42:56,002][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-18 22:42:56,003][INFO] views.py : Created voting
+[2024-04-18 22:43:23,021][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-18 22:43:23,022][INFO] views.py : Created voting
+[2024-04-18 22:45:09,332][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-18 22:45:09,333][INFO] views.py : Created voting
+[2024-04-19 20:05:35,753][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-19 20:05:35,755][INFO] views.py : Created voting
+[2024-04-19 20:06:29,795][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-19 20:06:29,796][INFO] views.py : Created voting
+[2024-04-19 20:07:55,716][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-19 20:07:55,718][INFO] views.py : Created voting
+[2024-04-19 20:12:48,624][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-19 20:12:48,625][INFO] views.py : Created voting
+[2024-04-19 20:12:49,401][INFO] views.py : {}
+[2024-04-19 20:19:16,581][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-19 20:19:16,582][INFO] views.py : Created voting
+[2024-04-19 20:19:17,326][INFO] views.py : {}
+[2024-04-19 20:22:14,354][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-19 20:22:14,355][INFO] views.py : Created voting
+[2024-04-19 20:22:15,071][INFO] views.py : {}
+Opened login page
+[2024-04-19 20:23:32,597][INFO] views.py : Opened main page
+Opened login page
+User is authenticated
+[2024-04-19 20:23:45,481][INFO] views.py : Opened main page
+[2024-04-19 20:23:48,264][INFO] views.py : Opened create_voting page
+[2024-04-19 20:23:49,747][INFO] views.py : {'csrfmiddlewaretoken': ['W2AShiJNyEE6QMzXOWrpRYQClxk1RBkYcnsf5XW6XW5KiBNzYZOqPrJoWYewH5Js'], 'header': [''], 'description': ['  ']}
+[2024-04-19 20:24:06,945][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-19 20:24:06,947][INFO] views.py : Created voting
+[2024-04-19 20:24:07,763][INFO] views.py : {}
+[2024-04-19 20:25:51,519][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-19 20:25:51,520][INFO] views.py : Created voting
+[2024-04-19 20:25:52,239][INFO] views.py : {}
+[2024-04-19 20:26:40,335][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-19 20:26:40,336][INFO] views.py : Created voting
+[2024-04-19 20:26:41,073][INFO] views.py : {}
+[2024-04-19 20:30:14,070][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-19 20:30:14,071][INFO] views.py : Created voting
+[2024-04-19 20:30:14,870][INFO] views.py : {'header': ['Test Description']}
+[2024-04-19 20:30:15,688][INFO] views.py : {}
+[2024-04-19 20:30:16,467][INFO] views.py : {'description': ['Test Header']}
+[2024-04-19 20:31:54,251][INFO] views.py : Opened main page
+[2024-04-19 20:32:13,600][INFO] views.py : Opened voting page
+[2024-04-19 20:39:32,103][INFO] views.py : Opened main page
+[2024-04-19 20:39:34,060][INFO] views.py : Opened voting page
+[2024-04-19 20:39:44,373][INFO] views.py : Opened main page
+[2024-04-19 20:43:48,627][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-19 20:43:48,628][INFO] views.py : Created voting
+[2024-04-19 20:43:49,469][INFO] views.py : {'header': ['Test Description']}
+[2024-04-19 20:43:50,252][INFO] views.py : {}
+[2024-04-19 20:43:50,996][INFO] views.py : {'description': ['Test Header']}
+[2024-04-19 20:44:31,590][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-19 20:44:31,592][INFO] views.py : Created voting
+[2024-04-19 20:44:32,300][INFO] views.py : {'header': ['Test Description']}
+[2024-04-19 20:44:33,108][INFO] views.py : {}
+[2024-04-19 20:44:33,815][INFO] views.py : {'description': ['Test Header']}
+[2024-04-19 20:45:51,786][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-19 20:45:51,788][INFO] views.py : Created voting
+[2024-04-19 20:45:52,581][INFO] views.py : {'header': ['Test Description']}
+[2024-04-19 20:45:53,326][INFO] views.py : {}
+[2024-04-19 20:45:54,047][INFO] views.py : {'description': ['Test Header']}
+[2024-04-19 20:45:54,831][INFO] views.py : Opened voting page
+[2024-04-19 20:45:54,834][INFO] views.py : User has voted
+[2024-04-19 20:50:04,633][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-19 20:50:04,635][INFO] views.py : Created voting
+[2024-04-19 20:50:05,351][INFO] views.py : {'header': ['Test Description']}
+[2024-04-19 20:50:06,087][INFO] views.py : {}
+[2024-04-19 20:50:06,864][INFO] views.py : {'description': ['Test Header']}
+[2024-04-19 20:50:07,648][INFO] views.py : Opened voting page
+[2024-04-19 20:50:07,651][INFO] views.py : User has voted
+[2024-04-19 20:50:41,376][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-19 20:50:41,377][INFO] views.py : Created voting
+[2024-04-19 20:50:42,180][INFO] views.py : {'header': ['Test Description']}
+[2024-04-19 20:50:42,928][INFO] views.py : {}
+[2024-04-19 20:50:43,729][INFO] views.py : {'description': ['Test Header']}
+[2024-04-19 20:50:44,459][INFO] views.py : Opened voting page
+[2024-04-19 20:50:44,462][INFO] views.py : User has voted
+[2024-04-19 22:04:11,856][INFO] views.py : {'header': ['Header'], 'description': ['Description']}
+[2024-04-19 22:04:11,857][INFO] views.py : Created voting
+[2024-04-19 22:04:12,632][INFO] views.py : {'header': ['Test Description']}
+[2024-04-19 22:04:13,427][INFO] views.py : {}
+[2024-04-19 22:04:14,103][INFO] views.py : {'description': ['Test Header']}
+[2024-04-19 22:04:14,848][INFO] views.py : Opened voting page
+[2024-04-19 22:04:14,851][INFO] views.py : User has voted
+[2024-04-19 22:04:15,533][INFO] views.py : Opened voting page
+[2024-04-19 22:04:15,536][INFO] views.py : User has voted
+[2024-04-19 22:04:15,540][INFO] views.py : Opened voting page
+[2024-04-19 22:04:15,543][INFO] views.py : User has voted
+[2024-04-22 21:24:22,134][INFO] views.py : Opened main page

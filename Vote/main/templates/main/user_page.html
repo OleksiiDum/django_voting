@@ -1,0 +1,6 @@
+{% extends "layout.html" %}
+{% load static %}
+{% block title %}{{ request.user }}'s Page{% endblock title %}
+{% block body %}
+<h1>Hello {{ request.user }}</h1>
+{% endblock body %}
